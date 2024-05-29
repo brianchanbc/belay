@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/update_reaction/1
+Content-Type: application/json
+apikey: jcmv7ing4nuzm9auugc7bm4azjoc2gxuvuxyd6r9
+
+{
+  "username": "user2",
+  "emoji": "like"
+}

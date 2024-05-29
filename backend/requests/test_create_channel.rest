@@ -1,0 +1,7 @@
+POST http://localhost:3001/api/create_channel/
+Content-Type: application/json
+apikey: jcmv7ing4nuzm9auugc7bm4azjoc2gxuvuxyd6r9
+
+{
+  "channelName": "my new channel 4"
+}

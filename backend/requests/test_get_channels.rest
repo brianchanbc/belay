@@ -1,0 +1,3 @@
+GET http://localhost:3001/api/get_channels/
+Content-Type: application/json
+apikey: jcmv7ing4nuzm9auugc7bm4azjoc2gxuvuxyd6r9

@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/create_message/my%20new%20channel%204
+Content-Type: application/json
+apikey: jcmv7ing4nuzm9auugc7bm4azjoc2gxuvuxyd6r9
+
+{
+  "username": "newuser",
+  "messageContent": "cool stuff!"
+}
