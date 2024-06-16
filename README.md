@@ -14,9 +14,19 @@ Back End: Node.js, Express.js
 
 Database: SQLite3
 
+Container: Docker
+
 Programming Languages: TypeScript, JavaScript
 
 ## How to run Belay
+
+With Docker (recommended):
+
+```bash
+docker compose up --build
+```
+
+Without Docker:
 
 Open two terminal windows. 
 

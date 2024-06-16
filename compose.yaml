@@ -1,0 +1,21 @@
+services:
+  frontend:
+    build:
+      context: ./frontend
+    environment:
+      NODE_ENV: production
+    ports:
+      - 5173:5173
+  backend:
+    build:
+      context: ./backend
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3001:3001
+    volumes:
+      - db-data:/app/db # Mount database volume to the container to persist data
+
+volumes:
+  db-data:
+    
